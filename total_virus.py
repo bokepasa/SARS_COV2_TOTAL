@@ -15,7 +15,6 @@ print("{0:.6f}".format(size_cm),"cm")
 virus_cm3 = 4/3 * math.pi * pow(size_cm/2,3)
 virus_nano3 = 4/3 * math.pi * pow(virus_size/2,3)
 print ("Centimeters\u00b3:" , virus_cm3)
-#print("{0:.16f}".format(virus_cm3))
 print ("Nanometres\u00b3:" , int(virus_nano3))
 
 total_virus = 200000000000000000 # virus particles in the world at any one time.
